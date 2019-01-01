@@ -3,6 +3,11 @@ component develop boilerplates (WIP)
 
 ## develop component
 
+#umi-plugin-library-demo
+
+[umi-plugin-library](https://github.com/umijs/umi-plugin-library)
+
+
 `npm run dev`
 
 base on docz, so you can use react in markdown, enjoy develop your component, and write document.
@@ -21,4 +26,4 @@ umd package: use rollup
 
 `npm run deploy`
 
-use ghpages to publish your doc site on `username.github.io/repo`
+use ghpages to publish your doc site on `username.github.io/repo` (not work ?) 
