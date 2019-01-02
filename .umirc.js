@@ -6,13 +6,18 @@ export default {
         doc: {
           theme: "docz-theme-antd"
         },
-        input: "components/index.js",
+        input: "src/index.js",
         esm: {
-          type: "babel",
-          dir: "esm" // not support yet
+          type: "babel",    // rollup babel
         },
         cjs: {
-          type: "rollup"
+          type: "rollup"  // rollup babel
+        },
+        umd: {
+          name: 'umiPluginLibraryDemo', // default camel case package name
+          global: {
+            'react': 'React'
+          }
         },
         namedExports: {
           [require.resolve("react-is")]: [
