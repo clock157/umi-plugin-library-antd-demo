@@ -7,24 +7,22 @@
   "unpkg": "dist/index.umd.js",
   "scripts": {
     "dev": "umi doc dev",
-    "deploy": "umi doc deploy",
-    "build": "rm -rf dist lib es && umi lib build"
+    "deploy": "umi doc build && umi doc deploy",
+    "build": "umi lib build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umijs/umi-plugin-library-demo.git"
+    "url": "git+https://github.com/clock157/umi-plugin-library-antd-demo.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/umijs/umi-plugin-library-demo/issues"
+    "url": "https://github.com/clock157/umi-plugin-library-antd-demo/issues"
   },
-  "homepage": "https://github.com/umijs/umi-plugin-library-demo#readme",
-  "dependencies": {
-    "umi": "^2.3.1",
-    "umi-plugin-library": "^1.0.1-alpha.4"
-  },
+  "homepage": "https://github.com/clock157/umi-plugin-library-antd-demo#readme",
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "umi": "^2.3.1",
+    "umi-plugin-library": "^1.0.1",
+    "docz-theme-antd": "^1.0.1"
   }
 }

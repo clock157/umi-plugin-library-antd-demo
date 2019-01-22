@@ -4,3 +4,5 @@ es
 lib
 .docz
 .umi
+yarn.lock
+.vscode
