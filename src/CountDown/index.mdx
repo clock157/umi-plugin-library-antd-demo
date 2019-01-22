@@ -1,0 +1,14 @@
+---
+name: CountDown
+route: /components/CountDown
+parent: Component
+sidebar: true
+---
+## Count Down
+
+import { Playground } from 'docz';
+import CountDown from '.';
+
+<Playground>
+    <CountDown target={new Date().getTime() + 3900000} />
+</Playground>
