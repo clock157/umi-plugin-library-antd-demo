@@ -1,7 +1,7 @@
 {
-  "name": "umi-plugin-library-demo",
+  "name": "umi-plugin-library-antd-demo",
   "version": "1.0.0",
-  "description": "component develop boilerplates (WIP)",
+  "description": "component develop boilerplates",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.umd.js",
